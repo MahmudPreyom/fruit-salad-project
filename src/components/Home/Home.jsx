@@ -1,3 +1,4 @@
+import About from "../About/About";
 import BestMenu from "../BestMenu/BestMenu";
 import ChooseFood from "../ChooseFood/ChooseFood";
 // import HealthyFood from "../HealthyFood/HealthyFood";
@@ -10,6 +11,7 @@ const Home = () => {
         <div>
             <Banner/>
             <ChooseFood/>
+            <About/>
             {/* <HealthyFood/> */}
             <BestMenu/>
             <Subscribe/>
