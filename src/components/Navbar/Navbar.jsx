@@ -1,7 +1,15 @@
 
 const Navbar = () => {
+
+    const navOption = <>
+        <li className="hover:text-orange-500 font-semibold">Home</li>
+        <li className="hover:text-orange-500 font-semibold">Menu</li>
+        <li className="hover:text-orange-500 font-semibold">contact</li>
+        <li className="hover:text-orange-500 font-semibold">About us</li>
+    </>
+
     return (
-        <div>
+        <div className="md:w-[1170px] lg:w-[1170px] mx-auto">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -22,22 +30,18 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li>Item2</li>
-                            <li><a>Item 3</a></li>
+                            {navOption}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="text-2xl font-bold"><span className="text-orange-500">JEZ</span> SALAD</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li>Item 2</li>
-                        <li><a>Item 3</a></li>
+                    <ul className="menu menu-horizontal px-1 gap-10 flex justify-evenly">
+                        {navOption}
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                        <button className="btn btn-warning rounded-full text-white w-24">Sign</button>
                 </div>
             </div>
         </div>

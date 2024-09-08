@@ -4,7 +4,7 @@ import PeopleComents from "./PeopleComents";
 
 const About = () => {
     return (
-        <div className=" bg-orange-100">
+        <div className=" bg-orange-100 mt-28">
             <div className="container mx-auto grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 md:w-[1170px] lg:w-[1170px] gap-9 p-10">
                 <div className="mt-28">
                     <h3 className="text-4xl font-bold">What Are People<br />Saying <span className="text-orange-500">About Us</span></h3>
