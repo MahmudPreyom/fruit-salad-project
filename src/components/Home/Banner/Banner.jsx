@@ -17,7 +17,7 @@ const Banner = () => {
                     <div className='box up-down md:ml-80 lg:ml-80 ml-56'>
                         <img src={love} alt="" />
                     </div>
-                        <img className="md:w-[660px] lg:w-[660px] md:h-[745px] lg:h-[745px]" src={img1} alt="" />
+                        <img className="md:w-[660px] lg:w-[660px]" src={img1} alt="" />
                         <div className="rounded-full w-[288px] h-[70px] bg-slate-50 p-1 flex justify-start absolute md:bottom-24 lg:bottom-24 bottom-0 md:-left-10 lg:-left-10 left-0">
                             <img className="w-[60px] h-[60px]" src={img2} alt="" />
                             <div className="md:flex lg:flex grid gap-28">
