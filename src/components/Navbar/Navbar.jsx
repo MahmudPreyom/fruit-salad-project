@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div className="md:w-[1170px] lg:w-[1170px] mx-auto">
-            <div className="navbar bg-base-100">
+            <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,14 +33,14 @@ const Navbar = () => {
                             {navOption}
                         </ul>
                     </div>
-                    <a className="text-2xl font-bold"><span className="text-orange-500">JEZ</span> SALAD</a>
+                    <a className="text-2xl font-bold md:-ml-12 lg:-ml-12"><span className="text-orange-500">JEZ</span> SALAD</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-10 flex justify-evenly">
                         {navOption}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end mt-2">
                         <button className="btn btn-warning rounded-full text-white w-24">Sign</button>
                 </div>
             </div>
